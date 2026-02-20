@@ -2058,3 +2058,35 @@ section.why-crm-section {
   border-radius: 50%; /* perfect circle */
 }
 
+/* ==============================
+   SEO Landing Keyword Section
+================================= */
+
+/* #seo-keywords .seo-card {
+  background: #ffffff;
+  padding: 28px 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(106, 27, 154, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+} */
+
+/* #seo-keywords .seo-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(106, 27, 154, 0.18);
+} */
+
+/* #seo-keywords .seo-card a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #4a148c;
+  text-decoration: none;
+  transition: 0.3s ease;
+} */
+
+/* #seo-keywords .seo-card a:hover {
+  color: #ad1457;
+} */
+
