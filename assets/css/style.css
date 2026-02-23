@@ -1808,11 +1808,10 @@ section {
 
 /* Gradient animated heading */
 .gradient-text {
-  background: linear-gradient(90deg, #ad1457, #6a1b9a, #1976d2);
-  background-size: 300% 300%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradientMove 6s ease infinite;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+  color: #6a1b9a !important;
 }
 
 @keyframes gradientMove {
@@ -2089,4 +2088,84 @@ section.why-crm-section {
 /* #seo-keywords .seo-card a:hover {
   color: #ad1457;
 } */
+
+/* ======================================
+   CRM SPLIT SECTION (2 Column Layout)
+====================================== */
+
+/* Fine tune spacing between CRM section and Features */
+.crm-split-section {
+  margin-bottom: 20px;   /* small clean gap */
+}
+
+#features {
+  padding-top: 20px;     /* reduce top space */
+}
+
+.crm-row {
+  margin-bottom: 80px;
+}
+
+.crm-content h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #ad1457;
+  margin-bottom: 20px;
+}
+
+.crm-content p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.crm-list {
+  list-style: none;
+  padding: 0;
+}
+
+.crm-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #555;
+}
+
+.crm-list li:before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ad1457;
+  font-weight: bold;
+}
+
+.crm-image img {
+  max-width: 420px;   /* reduced from 520px */
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Mobile Fix */
+@media (max-width: 991px) {
+
+  .crm-row {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .crm-content {
+    margin-top: 30px;
+  }
+
+  .crm-image img {
+    max-width: 100%;
+  }
+
+}
+
+
+
 
